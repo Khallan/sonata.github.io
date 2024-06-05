@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="contact.css" />
 
 <body id="mainbody">
     <p>
 
         <body>
             <nav id="navbar">
-                <div id="navbarlinks">
-                    <li style="float:left"><a href="index.html"><i>Sonata Condominiums</i></a></li>
-                    <li><a href="stay.html">Stay</a></li>
+                <div>
+                    <li style="float:left"><a href="#top"><i>Sonata Condominiums</i></a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </div>
             </nav>
+            <div id="contact">
+                <p>
+                    <body id="mainContact">
+                        <div class="contact-container">
+                            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                                <div class="contact-left-title">
+                                    <h2>Get in touch</h2>
+                                    <hr>
+                                </div>
+                                <input type="hidden" name="access_key" value="fe5b1f56-39a7-444a-9b3b-ea449f7e7571">
+                                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                            <div class="contact-right">
 
+                            </div>
+                        </div>
+                    </body>
+                </p>
+            </div>
             <footer id="footerbar">
-                <header>Sonata</header>
+                <div>
+                    <p id="footersonata">Thank you for choosing Sonata as your HOME!</p>
+                    <p id="courtesy">Web Created by Courtesy of Khallan Jamal</p>
+                </div>
             </footer>
         </body>
     </p>
 </body>
+
 </html>
