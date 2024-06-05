@@ -6,7 +6,6 @@
     top: 0;
     width: 100%;
     display: inline;
-
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,10 +19,11 @@
         padding-bottom: 5px;
         text-decoration: none;
         color: white;
-        font-size: 35px;
+        font-size: 30px;
         float: right;
     }
 }
+
 
 #footerbar {
     background-color: rgb(44, 44, 44);
@@ -48,7 +48,7 @@
     color: lightseagreen;
 }
 
-#courtesy {
+#credit {
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
