@@ -1,73 +1,14 @@
- #navbar {
-     background-color: lightseagreen;
-     overflow: hidden;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     position: fixed;
-     top: 0;
-     width: 100%;
-     display: inline;
+html {
+    scroll-behavior: smooth;
+}
 
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-
-
-     li a {
-         display: block;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         text-decoration: none;
-         color: white;
-         font-size: 35px;
-         float: right;
-     }
- }
-
- html {
-     scroll-behavior: smooth;
- }
-
- a {
-     text-decoration: none;
-     color: black;
- }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 
 
- #mainbody {
-     margin: 0;
- }
-
- #footerbar {
-     background-color: rgb(44, 44, 44);
-     overflow: hidden;
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     position: fixed;
-     bottom: 0;
-     width: 100%;
-     display: inline;
-
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
- }
-
- #footersonata {
-     padding-left: 10px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     display: inline;
-     float: left;
-     color: lightseagreen;
- }
-
- #courtesy {
-     padding-right: 10px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     display: block;
-     float: right;
-     color: lightseagreen;
- }
+#mainbody {
+    margin: 0;
+}

@@ -45,7 +45,7 @@
     margin-bottom: 20px;
 }
 
-.contact-inputs{
+.contact-inputs {
     width: 400px;
     height: 50px;
     border: none;
@@ -56,21 +56,21 @@
     border-radius: 50px;
 }
 
-.contact-left textarea{
+.contact-left textarea {
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
 }
 
-.contact-inputs:focus{
-    border:2px solid lightseagreen;
+.contact-inputs:focus {
+    border: 2px solid lightseagreen;
 }
 
-.contact-inputs::placeholder{
+.contact-inputs::placeholder {
     color: lightgrey;
 }
 
-.contact-left button{
+.contact-left button {
     display: flex;
     align-items: center;
     padding: 15px 30px;
@@ -78,13 +78,18 @@
     color: rgb(100, 100, 100);
     gap: 10px;
     border: none;
-    border-radius:50px;
+    border-radius: 50px;
     background-color: lightseagreen;
     cursor: pointer;
 }
 
+.contact-right img{
+    width: 500px;
+    border-radius: 150px;
+}
+
 @media (max-width:800px) {
-    .contact-inputs{
-        width:80vw;
+    .contact-inputs {
+        width: 80vw;
     }
 }
