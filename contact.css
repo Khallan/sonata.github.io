@@ -72,7 +72,7 @@
 
 .contact-left button {
     display: inline;
-    align-items: center;
+    /* align-items: center; */
     padding: 15px 30px;
     font-size: 16px;
     color: rgb(100, 100, 100);
@@ -83,7 +83,7 @@
     cursor: pointer;
 }
 
-.contact-right img{
+.contact-right img {
     width: 500px;
     border-radius: 150px;
 }
@@ -92,4 +92,25 @@
     .contact-inputs {
         width: 80vw;
     }
+}
+
+.hiddendiv {
+    display: none;
+}
+
+.management:focus~#management {
+    display: block;
+}
+.management{
+    padding: 5px;
+    background-color: lightseagreen;
+    border-radius: 20px;
+}
+.management:hover{
+    background-color: rgb(43, 141, 136);
+    border-radius: 20px;
+}
+
+.board:focus~#board {
+    display: block;
 }
