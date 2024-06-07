@@ -26,7 +26,6 @@
     flex-direction: column;
     align-items: start;
     gap: 20px;
-    /* color: lightseagreen;        */
 }
 
 .contact-left-title h2 {
@@ -42,7 +41,7 @@
     height: 5px;
     background-color: lightseagreen;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .contact-inputs {
@@ -83,34 +82,73 @@
     cursor: pointer;
 }
 
-.contact-right img{
+.contact-right img {
     width: 500px;
     border-radius: 150px;
 }
 
-
+/* Phone optimizing *not working* */
 @media (max-width:800px) {
     .contact-inputs {
         width: 80vw;
     }
 }
 
-.managementBtn{
-    padding: 10px;
+/* Buttons to choose Manager or Board */
+.managementBtn {
+    padding: 15px 50px;
     background-color: lightseagreen;
-    border-radius: 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
 }
 
-.managementBtn:hover{
+.managementBtn:hover {
     background-color: rgb(50, 150, 150);
 }
 
-.boardBtn{
-    padding: 10px;
+.boardBtn {
+    padding: 15px 30px;
     background-color: lightseagreen;
-    border-radius: 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
-.boardBtn:hover{
+.boardBtn:hover {
     background-color: rgb(50, 150, 150);
+}
+
+.contact-left-phone h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: lightseagreen;
+}
+
+.contact-left-phone hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-left-phone p {
+    color: lightseagreen;
+    border: none;
+    font-size: 20px;
+}
+
+.contact-left-phone a {
+    color: lightseagreen;
+    text-decoration: underline;
 }
