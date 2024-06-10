@@ -69,7 +69,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 142px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -94,6 +94,16 @@
 .dropdown:hover .dropbtn {
     /* background-color: #3e8e41; */
 }
+/* Arrow */
+/* span {
+    display: none;
+    content: "\21E9";
+    margin-left: 5px;
+}
+
+.dropdown:hover .span {
+    display: block;
+} */
 
 /* Footer CSS */
 #footerbar {

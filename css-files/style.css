@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,13 +12,40 @@ a {
     color: black;
 }
 
-
-
-#mainbody {
-    margin: 0;
+.wrapper {
+    width: 100%;
 }
 
-/* Here, you can change everthing */
-/* * {
-    font-family: 'Courier New', Courier, monospace;
-} */
+.main-image {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.main-pic-text-sonata {
+    width: 100%;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 49%;
+    transform: translate(-50%, -35%);
+    padding-top: 400px;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-pic-text-sonata p {
+    color: white;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 300px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-image-tablet{
+    display: none;
+}

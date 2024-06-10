@@ -44,6 +44,38 @@
     margin-bottom: 15px;
 }
 
+/* Buttons to choose Manager or Board */
+.managementBtn {
+    padding: 15px 50px;
+    background-color: lightseagreen;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.managementBtn:hover {
+    background-color: rgb(50, 150, 150);
+}
+
+.boardBtn {
+    padding: 15px 30px;
+    background-color: lightseagreen;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boardBtn:hover {
+    background-color: rgb(50, 150, 150);
+}
+
+/* For actual contact pages */
 .contact-inputs {
     width: 400px;
     height: 50px;
@@ -87,12 +119,6 @@
     border-radius: 150px;
 }
 
-/* Phone optimizing *not working* */
-@media (max-width:800px) {
-    .contact-inputs {
-        width: 80vw;
-    }
-}
 
 /* Buttons to choose Manager or Board */
 .managementBtn {
@@ -104,7 +130,6 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-
 }
 
 .managementBtn:hover {

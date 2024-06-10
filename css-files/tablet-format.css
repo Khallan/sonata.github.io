@@ -1,0 +1,126 @@
+@media only screen and (max-width:829px) {
+    .main-image {
+        display: none;
+    }
+
+    .main-image-tablet{
+        display: block;
+        width: 100%;
+    }
+
+    .main-pic-text-sonata {
+        width: 100%;
+        font-size: 50px;
+        position: absolute;
+        top: 0;
+        left: 49%;
+        transform: translate(-50%, -35%);
+    }
+
+    .main-pic-text-sonata p {
+        padding-top: 0px;
+        color: black;
+        font-size: 30px;
+    }
+
+    .contact-right {
+        display: none;
+    }
+
+    .contact-left-title h2 {
+        /* font-weight: 600; */
+        font-size: 75px;
+        /* margin-bottom: 5px; */
+    }
+
+    .contact-left-title hr {
+        width: 180px;
+        height: 7.5px;
+        border-radius: 15px;
+        margin-bottom: 22.5px;
+    }
+
+    .managementBtn {
+        padding: 22.5px 75px;
+        border-radius: 75px;
+        font-size: 24px;
+    }
+
+    .boardBtn {
+        padding: 22.5px 45px;
+        border-radius: 75px;
+        font-size: 24px;
+    }
+
+    /* Footer CSS */
+
+    #footersonata {
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        /* display: inline; */
+        /* float: left; */
+        text-align: center;
+    }
+
+    #credit {
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* display: inline; */
+        position:static;
+        text-align: center;
+    }
+}
+/* Phone CSS */
+@media only screen and (max-width:450px) {
+    .main-pic-text-sonata {
+        width: 100%;
+        font-size: 40px;
+        position: absolute;
+        top: 0;
+        left: 49%;
+        transform: translate(-50%, -45%)
+    }
+
+    .main-pic-text-sonata p {
+        display: none;
+        /* padding-top: 0px;
+        color: black;
+        font-size: 15px;
+        margin-top: 100px; */
+    }
+    .contact-right {
+        display: none;
+    }
+
+    .contact-left-title h2 {
+        /* font-weight: 600; */
+        font-size: 50px;
+        /* margin-bottom: 5px; */
+    }
+
+    .contact-left-title hr {
+        width: 120px;
+        height: 5px;
+        border-radius: 15px;
+        margin-bottom: 22.5px;
+    }
+
+    .managementBtn {
+        padding: 17px 60px;
+        border-radius: 50px;
+        font-size: 24px;
+    }
+
+    .boardBtn {
+        padding: 17px 31px;
+        border-radius: 50px;
+        font-size: 24px;
+    }
+    .contact-right img {
+        display: none;
+        
+    }
+}
