@@ -1,9 +1,50 @@
 @media only screen and (max-width:829px) {
+    .link-container{
+        
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: lightseagreen;
+
+        position: fixed;
+        top:0;
+        right: -100%;
+        z-index: 10;
+        width: 300px;
+
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+        transition: 1s ease-out;
+    } 
+    nav a {
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        /* padding: 20px 30px; */
+        justify-content: flex-start;
+    }
+
+    .open-sidebar-button, .close-sidebar-button{
+        display: block;
+        padding: 20px;
+
+    }
+    #sidebar-active:checked ~ .link-container{
+        right: 0;
+    }
+
+    #sidebar-active:checked ~ #overlay{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
     .main-image {
         display: none;
     }
 
-    .main-image-tablet{
+    .main-image-tablet {
         display: block;
         width: 100%;
     }
@@ -23,6 +64,7 @@
         font-size: 30px;
     }
 
+    /* Contact Main Page */
     .contact-right {
         display: none;
     }
@@ -69,12 +111,17 @@
         padding-top: 10px;
         padding-bottom: 10px;
         /* display: inline; */
-        position:static;
+        position: static;
         text-align: center;
     }
+    
 }
+
+
+
 /* Phone CSS */
 @media only screen and (max-width:450px) {
+    
     .main-pic-text-sonata {
         width: 100%;
         font-size: 40px;
@@ -91,6 +138,8 @@
         font-size: 15px;
         margin-top: 100px; */
     }
+
+    /* Contact Main Page */
     .contact-right {
         display: none;
     }
@@ -119,8 +168,9 @@
         border-radius: 50px;
         font-size: 24px;
     }
+
     .contact-right img {
         display: none;
-        
+
     }
 }
