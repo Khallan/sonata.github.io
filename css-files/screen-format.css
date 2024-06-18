@@ -13,8 +13,9 @@
 
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         transition: 1s ease-out;
-    } 
-    nav a {
+    }
+    
+    .home-link, .community-link, .rule-link, .dropbtn, .contact-link, .login-link{
         box-sizing: border-box;
         height: auto;
         width: 100%;
