@@ -157,6 +157,11 @@ nav svg{
 .dropdown:hover .dropbtn {
     /* transition: 0.5s; */
 }
+.dropbtn:hover{
+    background-color: rgb(50, 150, 150);
+    transition: 0.5s;
+    height: 60px;
+}
 
 
 
