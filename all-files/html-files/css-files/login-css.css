@@ -118,6 +118,8 @@ body {
 
 .form__text{
     text-align: center;
+    padding-top: 10px;
+
 }
 
 .form__link{
