@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* background-color: lightblue; */
+    /* z-index: -100; */
 }
 
 html {
@@ -19,6 +21,8 @@ a {
 .main-image {
     width: 100%;
     padding-top: 45px;
+    height: 100%;
+    overflow: hidden;
 }
 
 .main-pic-text-sonata {

@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <link rel="stylesheet" href="./css-files/style.css" />
     <link rel="stylesheet" href="./css-files/contact.css" />
-    <link rel="stylesheet" href="./css-files/pictures.css" />
     <link rel="stylesheet" href="./css-files/nav-and-footer.css" />
-    <link rel="stylesheet" href="./css-files/screen-format.css" />
+    <link rel="stylesheet" href="./css-files/screen-format.css " />
+    <title>Sonata</title>
+</head>
 
+<body id="mainbody">
 
-<!-- NEED TO CHANGE EMAIL LINKS TO MANAGEMENT -->
-`
-<body>
+    <p>
+
+        <!-- Navigation Bar Code here: -->
     <nav>
         <input type="checkbox" id="sidebar-active">
         <label for="sidebar-active" class="open-sidebar-button">
-            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
-                fill="#e8eaed">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed">
                 <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
             </svg>
         </label>
@@ -33,39 +38,41 @@
             <div class="dropdown">
                 <button class="dropbtn">Bookings</button>
                 <div class="dropdown-content">
-                    <a href="./elevator-booking.html">Elevator</a>
-                    <a href="./party-room-booking.html">Party Room</a>
-                    <a href="./guest-suites.html">Guest Suites</a>
+                    <a href="/html-files/elevator-booking.html">Elevator</a>
+                    <a href="/html-files/party-room-booking.html">Party Room</a>
+                    <a href="/html-files/guest-suites.html">Guest Suites</a>
                 </div>
             </div>
-            <a class="login-link" href="./login-html.html">Login</a>
-            <a href="./index.html">Go Back</a>
+            <a href="./index.html">Contact Us</a>
+            <a class="login-link" href="./login-html.html">Mgmt Use</a>
+ 
+
         </div>
     </nav>
+    <!-- Contact Directory Code Here -->
     <div id="contact">
         <p>
+        <div>
 
             <body id="mainContact">
                 <div class="contact-container">
                     <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
                         <div class="contact-left-title">
-                            <h2>Get in touch . . .</h2>
-                            <h2>Management: <i>Kartik Sai</i></h2>
+                            <h2>Get in touch</h2>
                             <hr>
                         </div>
-                        <input type="hidden" name="access_key" value="fe5b1f56-39a7-444a-9b3b-ea449f7e7571">
-                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                         <textarea name="message" placeholder="Your Message" class="contact-inputs"
-                            required></textarea>
-                        <button type="submit">Submit</button>
-                        <div class="contact-left-phone">
-                            <h2>Or contact by phone . . .</h2>
-                            <hr>
-                            <div>
-                                <p>Manager: <a href="tel:4165121497">(416) 512-1497</a></p>
-                                <p>Security: <a href="tel:4165121497">(647) 482-9583</a></p>
-                            </div>
+                        <div class="managementBtn">
+                            <li class="contact-left"><a
+                                    href="./contact-management.html">
+                                    <div style="color: rgb(100, 100, 100);">Management</div>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="boardBtn">
+                            <li class="contact-left"><a href="./contact-board.html">
+                                    <div style="color: rgb(100, 100, 100);">Board Of Directors</div>
+                                </a>
+                            </li>
                         </div>
                     </form>
                     <div class="contact-right">
@@ -73,15 +80,16 @@
                     </div>
                 </div>
             </body>
-        </p>
-    </div>
+</p>
+</div>
+    <!-- Footer Code Here -->
     <footer id="footerbar">
         <div>
             <p id="footersonata">YOUR HOME AT SONATA!</p>
             <p id="credit">Website Created by Khallan Jamal</p>
         </div>
     </footer>
-
+    </p>
 </body>
 
 </html>
