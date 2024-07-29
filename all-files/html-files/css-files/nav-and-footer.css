@@ -145,7 +145,7 @@ nav svg{
 
 .dropdown-content a:hover {
     background-color: #ddd;
-
+    padding: 10px;
 }
 
 .dropdown:hover .dropdown-content {
