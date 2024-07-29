@@ -177,11 +177,11 @@ nav svg{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-top: 7px ;
 }
 
 #footersonata {
     padding-left: 10px;
-    padding-top: 10px;
     padding-bottom: 10px;
     display: inline;
     float: left;
@@ -190,9 +190,18 @@ nav svg{
 
 #credit {
     padding-right: 10px;
-    padding-top: 10px;
     padding-bottom: 10px;
     display: block;
     float: right;
     color: lightseagreen;
+}
+.mgmt {
+    color: lightseagreen;
+    padding-left: 10px;
+    font-size: 17px;
+    /* float: bottom; */
+    /* margin-top: 1cm; */
+    padding-top: 10px;
+    text-decoration: underline;
+
 }

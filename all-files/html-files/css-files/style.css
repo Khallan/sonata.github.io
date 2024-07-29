@@ -25,28 +25,30 @@ a {
     overflow: hidden;
 }
 
-.main-pic-text-sonata {
+.main-pic-text-sonata{
     width: 100%;
     font-size: 100px;
     color: white;
     font-weight: bold;
     position: absolute;
     top: 0;
+    margin-top: 5cm;
     left: 49%;
     transform: translate(-50%, -35%);
     padding-top: 400px;
     text-align: center;
-    color: black;
+    color: white(20, 110, 105);
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .main-pic-text-sonata p {
     color: white;
     width: 100%;
     padding-top: 50px;
-    margin-top: 300px;
+    margin-top: 100px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
 }
 
